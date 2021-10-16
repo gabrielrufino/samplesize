@@ -1,3 +1,10 @@
-export { default as Confidence } from './enums/Confidence';
-export { default as CalculateParams } from './interfaces/CalculateParams';
-export { default as default } from './SampleSize'
+import Confidence from './enums/Confidence';
+import SampleSize from './SampleSize';
+
+export default SampleSize;
+export {
+  Confidence
+};
+
+module.exports = SampleSize;
+exports.Confidence = Confidence;
