@@ -1,7 +1,7 @@
 {
   "name": "@gabrielrufino/samplesize",
   "version": "0.0.3",
-  "description": "",
+  "description": "Package to determine the correct sample size for a survey",
   "main": "build/src/index.js",
   "scripts": {
     "build": "tsc -d",
