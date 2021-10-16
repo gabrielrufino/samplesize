@@ -12,7 +12,7 @@ Every survey needs an ideal number of responses according to the survey's target
 The calculation is based on three important variables: population size, confiability rate and margin of error.
 
 <p align="center">
-  <img width="200px" src="./assets/samplesize-formula.png">
+  <img src="./assets/samplesize-formula.png">
 </p>
 
 * **N**: The population size
