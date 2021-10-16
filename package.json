@@ -4,6 +4,7 @@
   "description": "Package to determine the correct sample size for a survey",
   "main": "build/src/index.js",
   "scripts": {
+    "lint": "tslint -c tslint.json 'src/**/*.ts'",
     "build": "tsc -d",
     "test": "jest"
   },
