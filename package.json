@@ -2,9 +2,9 @@
   "name": "@gabrielrufino/samplesize",
   "version": "0.0.2",
   "description": "",
-  "main": "build/index.js",
+  "main": "build/src/index.js",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc -d",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
