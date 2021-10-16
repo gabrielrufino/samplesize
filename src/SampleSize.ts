@@ -14,9 +14,9 @@ export default class SampleSize {
     const { population, confidence, errorMargin } = params;
 
     const escore = SampleSize.scores.get(confidence) ?? 0;
-    const p = 0.5
+    const p = 0.5;
 
-    const numerator = (Math.pow(escore, 2) * p * (1 - p)) / Math.pow(errorMargin, 2)
+    const numerator = (Math.pow(escore, 2) * p * (1 - p)) / Math.pow(errorMargin, 2);
     const denominator = 1 + ((Math.pow(escore, 2) * p * (1 - p)) / (Math.pow(errorMargin, 2) * population));
     const sampleSize = Math.ceil(numerator / denominator);
 
