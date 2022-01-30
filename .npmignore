@@ -1,5 +1,11 @@
+# Folders
+.github
+assets
 src
 tests
+
+# Files
 .gitignore
-jest.config
+jest.config.js
 tsconfig.json
+tslint.json
