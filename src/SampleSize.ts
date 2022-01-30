@@ -1,7 +1,7 @@
 import Confidence from './enums/Confidence';
 import CalculateParams from './interfaces/CalculateParams';
 
-export default class SampleSize {
+export default abstract class SampleSize {
   static confidences = Confidence
 
   static scores = new Map<Confidence, number>([
