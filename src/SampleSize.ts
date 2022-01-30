@@ -4,10 +4,10 @@ import CalculateParams from './interfaces/CalculateParams';
 export default class SampleSize {
   static confidences = Confidence
 
-  static scores = new Map([
-    [0.9, 1.65],
-    [0.95, 1.96],
-    [0.99, 2.58]
+  static scores = new Map<Confidence, number>([
+    [Confidence['90%'], 1.65],
+    [Confidence['95%'], 1.96],
+    [Confidence['99%'], 2.58]
   ])
 
   static calculate(params: CalculateParams): number {
