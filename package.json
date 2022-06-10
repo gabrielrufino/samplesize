@@ -13,6 +13,7 @@
     "url": "git+https://github.com/gabrielrufino/samplesize.git"
   },
   "author": "Gabriel Rufino <contato@gabrielrufino.com>",
+  "funding": "https://github.com/sponsors/gabrielrufino",
   "license": "UNLICENSED",
   "bugs": {
     "url": "https://github.com/gabrielrufino/samplesize/issues"
