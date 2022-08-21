@@ -4,8 +4,9 @@
   "description": "Package to determine the correct sample size for a survey",
   "main": "build/src/index.js",
   "scripts": {
-    "lint": "tslint -c tslint.json 'src/**/*.ts'",
     "build": "tsc -d",
+    "lint": "tslint -c tslint.json 'src/**/*.ts'",
+    "reinstall": "npx rimraf node_modules && npm ci",
     "test": "jest"
   },
   "repository": {
