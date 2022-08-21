@@ -1,11 +1,12 @@
 {
   "name": "@gabrielrufino/samplesize",
-  "version": "1.0.6",
+  "version": "1.0.7",
   "description": "Package to determine the correct sample size for a survey",
   "main": "build/src/index.js",
   "scripts": {
-    "lint": "tslint -c tslint.json 'src/**/*.ts'",
     "build": "tsc -d",
+    "lint": "tslint -c tslint.json 'src/**/*.ts'",
+    "reinstall": "npx rimraf node_modules && npm ci",
     "test": "jest"
   },
   "repository": {
@@ -22,6 +23,7 @@
   "devDependencies": {
     "@types/jest": "^27.5.2",
     "jest": "^27.5.1",
+    "rimraf": "^3.0.2",
     "ts-jest": "^27.1.5",
     "ts-node": "^10.9.1",
     "tslint": "^6.1.3",
