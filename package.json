@@ -7,7 +7,8 @@
     "build": "tsc -d",
     "lint": "tslint -c tslint.json 'src/**/*.ts'",
     "reinstall": "npx rimraf node_modules && npm ci",
-    "test": "jest"
+    "test": "jest",
+    "test:mutation": "npx stryker run"
   },
   "repository": {
     "type": "git",
