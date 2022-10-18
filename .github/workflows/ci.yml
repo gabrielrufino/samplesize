@@ -5,6 +5,34 @@ on:
   - pull_request
 
 jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+      - run: npm ci
+      - run: npm run build
+      - uses: actions/upload-artifact@v3
+        with:
+          name: build
+          path: build
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v2
+      - name: Use Node.js ${{ matrix.node-version }}
+        uses: actions/setup-node@v2
+        with:
+          node-version: ${{ matrix.node-version }}
+          cache: 'npm'
+      - run: npm ci
+      - run: npm run lint
   test:
     strategy:
       matrix:
@@ -21,8 +49,6 @@ jobs:
           node-version: ${{ matrix.node-version }}
           cache: 'npm'
       - run: npm ci
-      - run: npm run lint
-      - run: npm run build
       - run: npm test
   mutation-test:
     runs-on: ubuntu-latest
@@ -35,3 +61,7 @@ jobs:
           node-version: 16.x
       - run: npm ci
       - run: npm run test:mutation
+      - uses: actions/upload-artifact@v3
+        with:
+          name: mutation-reports
+          path: reports

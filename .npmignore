@@ -7,5 +7,6 @@ tests
 # Files
 .gitignore
 jest.config.js
+stryker.conf.mjs
 tsconfig.json
 tslint.json
