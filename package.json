@@ -8,6 +8,7 @@
     "lint": "tslint -c tslint.json 'src/**/*.ts'",
     "reinstall": "npx rimraf node_modules && npm ci",
     "test": "jest",
+    "test:cov": "npm run test -- --coverage",
     "test:mutation": "npx stryker run"
   },
   "repository": {
