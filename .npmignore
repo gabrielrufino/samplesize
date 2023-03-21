@@ -5,6 +5,7 @@ src
 tests
 
 # Files
+_config.yml
 .gitignore
 jest.config.js
 stryker.conf.mjs
