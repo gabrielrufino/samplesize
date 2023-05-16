@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="200px" src="./assets/logo.png">
+  <img width="200px" src="https://drive.google.com/uc?export=view&id=1iuh2NXRaAXMYl0tXL50Km_y-LX36A2Dy">
   <h1 align="center">Sample Size</h1>
 </p>
 
@@ -12,7 +12,7 @@ Every survey needs an ideal number of responses according to the survey's target
 The calculation is based on three important variables: population size, confiability rate and margin of error.
 
 <p align="center">
-  <img src="./assets/samplesize-formula.png">
+  <img src="https://drive.google.com/uc?export=view&id=1jXq8bPiCegwLn065clLgFtnD0ytaFs3l">
 </p>
 
 * **N**: The population size
