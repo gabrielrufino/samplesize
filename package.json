@@ -6,7 +6,6 @@
   "scripts": {
     "build": "tsc -d",
     "lint": "tslint -c tslint.json 'src/**/*.ts'",
-    "reinstall": "npx rimraf node_modules && npm ci",
     "test": "jest",
     "test:cov": "npm run test -- --coverage",
     "test:mutation": "npx stryker run",
@@ -31,7 +30,6 @@
     "@types/jest": "^29.5.12",
     "husky": "^9.0.11",
     "jest": "^28.1.3",
-    "rimraf": "^3.0.2",
     "ts-jest": "^28.0.8",
     "ts-node": "^10.9.2",
     "tslint": "^6.1.3",
