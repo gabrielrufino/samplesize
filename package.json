@@ -23,8 +23,8 @@
   },
   "homepage": "https://github.com/gabrielrufino/samplesize#readme",
   "devDependencies": {
-    "@commitlint/cli": "^19.4.0",
-    "@commitlint/config-conventional": "^19.2.2",
+    "@commitlint/cli": "^19.4.1",
+    "@commitlint/config-conventional": "^19.4.1",
     "@stryker-mutator/core": "^6.4.2",
     "@stryker-mutator/jest-runner": "^6.4.2",
     "@types/jest": "^29.5.12",
