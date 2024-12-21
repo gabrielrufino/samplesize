@@ -1,6 +1,6 @@
 {
   "name": "@gabrielrufino/samplesize",
-  "version": "1.0.40",
+  "version": "1.0.41",
   "description": "Package to determine the correct sample size for a survey",
   "main": "build/index.js",
   "scripts": {
