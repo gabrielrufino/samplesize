@@ -1,9 +1,9 @@
-import { describe, it, expect } from 'vitest'
+import { describe, expect, it } from 'vitest'
 
-import Confidence from './enums/Confidence';
-import SampleSize from './SampleSize';
+import Confidence from './enums/Confidence'
+import SampleSize from './SampleSize'
 
-describe('SampleSize', () => {
+describe('sampleSize', () => {
   it('should return the correct result', () => {
     const result = SampleSize.calculate({
       population: 3000,
