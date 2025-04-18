@@ -1,9 +1,9 @@
-import Confidence from '../enums/Confidence';
+import type Confidence from '../enums/Confidence'
 
 interface CalculateParams {
-  population: number;
-  confidence: Confidence;
-  errorMargin: number;
+  population: number
+  confidence: Confidence
+  errorMargin: number
 }
 
-export default CalculateParams;
+export default CalculateParams

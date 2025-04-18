@@ -1,10 +1,10 @@
-import Confidence from './enums/Confidence';
-import SampleSize from './SampleSize';
+import Confidence from './enums/Confidence'
+import SampleSize from './SampleSize'
 
-export default SampleSize;
+export default SampleSize
 export {
-  Confidence
-};
+  Confidence,
+}
 
-module.exports = SampleSize;
-exports.Confidence = Confidence;
+module.exports = SampleSize
+exports.Confidence = Confidence
