@@ -2,9 +2,9 @@ import type CalculateParams from './interfaces/CalculateParams'
 import Confidence from './enums/Confidence'
 
 export default abstract class SampleSize {
-  static confidences = Confidence
+  static readonly confidences = Confidence
 
-  static scores = new Map<Confidence, number>([
+  static readonly scores = new Map<Confidence, number>([
     [Confidence['90%'], 1.65],
     [Confidence['95%'], 1.96],
     [Confidence['99%'], 2.58],
