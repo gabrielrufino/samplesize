@@ -1,6 +1,6 @@
 {
   "name": "@gabrielrufino/samplesize",
-  "version": "1.0.48",
+  "version": "1.0.49",
   "description": "Package to determine the correct sample size for a survey",
   "author": "Gabriel Rufino <contato@gabrielrufino.com>",
   "license": "UNLICENSED",
